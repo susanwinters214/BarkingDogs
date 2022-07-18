@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{ font-family: 'Poppins', sans-serif;
+background-color: rgb(161, 100, 223);
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.bg{
+  background-image: url("dogPhoto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2{
+  background-image: url("dogPhoto2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1{color:white;display: flex;  height: 10vh;  font-size:2em;}
+
+header {color:white;display: flex; flex-direction:column;}
+header h2{ font-size:2em; }
+header h3{font-size:1em; }
+#oneButton{display: flex;
+  flex-wrap: wrap;
+}
+
+
+#rowOfButtons {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+#coverPhoto {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 0vh;
+  overflow: hidden;
+  margin: 0;
+
+}
+
+#dogCoverImg{border-radius: 15%}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 15vh;
+  background-color: rgb(161, 100, 223);
+}
+#dogFooter{position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:80px;
+  color: white;
+  text-align: center;
+  background-color: black;}
+
+  a#btmLink {color:white;}
+  a#btmLink:hover {color:black;background-color:white;}
+.btn {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+p{color:white;}
